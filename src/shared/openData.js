@@ -65,11 +65,8 @@ class OpenData extends React.Component {
 		this.props.opendata.map((v, k) => {
 			list.push(<tr key={k}>
 				<td>{v.date}</td>
-
 				<td>{v.newUsers}</td>
-
 				<td>{v.activeUser}</td>
-
 				<td>{v.id}</td>
 				</tr>);
 		});
